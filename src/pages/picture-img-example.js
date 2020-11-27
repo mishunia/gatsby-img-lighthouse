@@ -1,11 +1,11 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
-import SEO from "../components/Seo"
-import Heading from "../components/Heading"
-import { GridStyled, GridItemStyled } from "../components/Grid"
-import Image from "../components/Images/PictureImage"
+import Layout from "./../components/Layout"
+import SEO from "./../components/Seo"
+import Heading from "./../components/Heading"
+import { GridStyled, GridItemStyled } from "./../components/Grid"
+import Image from "./../components/Images/PictureImage"
 
 const PictureImgExamplePage = ({ data: { images } }) => {
   const photos = images.edges
