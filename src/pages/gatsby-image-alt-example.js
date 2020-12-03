@@ -43,7 +43,7 @@ export const pageQuery = graphql`
         node {
           id
           fluid(maxWidth: 600, quality: 100) {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
       }
