@@ -5,8 +5,8 @@ import { HeroStyled, HeroHeadingStyled } from "./styles"
 const Hero = () => (
   <HeroStyled>
     <HeroHeadingStyled>
-      Why gatsby <br />
-      img <mark>sucks</mark>
+      How use <br />
+      img in <mark>gatsby</mark>
     </HeroHeadingStyled>
   </HeroStyled>
 )
