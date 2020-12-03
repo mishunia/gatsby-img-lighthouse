@@ -7,6 +7,7 @@ const NavigationStyled = styled.div`
 
 const NavigationListStyled = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 `
@@ -21,7 +22,7 @@ const NavigationListItemLinkStyled = styled(Link)`
   display: block;
   max-width: 100px;
   color: #000;
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   z-index: 1;

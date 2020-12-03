@@ -7,6 +7,10 @@ const HeadingItemStyled = styled.h1`
   font-weight: 700;
   margin-bottom: 32px;
 
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+
   mark {
     color: ${({ theme }) => theme.colors.white};
     background-color: ${({ theme }) => theme.colors.brand};

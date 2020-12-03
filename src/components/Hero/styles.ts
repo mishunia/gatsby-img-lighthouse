@@ -5,14 +5,14 @@ const HeroStyled = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 40px 0;
+  padding: 16px 0;
 `
 
 const HeroHeadingStyled = styled.h1`
   display: block;
   text-align: center;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 30px;
 
   mark {
     position: relative;
