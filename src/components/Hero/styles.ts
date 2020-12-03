@@ -10,7 +10,7 @@ const HeroStyled = styled.div`
 
 const HeroHeadingStyled = styled.h1`
   display: block;
-  text-align: center;
+
   font-weight: 700;
   font-size: 30px;
 
