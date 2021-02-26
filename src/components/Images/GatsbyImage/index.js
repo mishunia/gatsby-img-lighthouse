@@ -10,12 +10,3 @@ const Image = ({ fluid }) => (
 )
 
 export default Image
-
-// <Img
-//   fluid={fluid}
-//   objectFit="cover"
-//   objectPosition={objectPosition}
-//   fadeIn={false}
-//   loading="eager"
-//   alt={alt}
-// />
